@@ -17,8 +17,7 @@
     	<div class="panel panel-default">
     		<div class="panel-heading">
     			<div class="clearfix">
-	   				<h1 class="panel-title aw-titulo-panel">Novo título</h1>
-	   				<a class="btn btn-link aw-link-panel" href="/titulos">Voltar para pesquisa</a>
+	   				
 	   			</div>
     		</div>
     		
@@ -57,5 +56,5 @@
 			</div>
     	</div>
     </form>
-</section>
+
 </html>
