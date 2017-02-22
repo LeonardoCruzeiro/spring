@@ -1,0 +1,14 @@
+@Configuration
+public class InMemorySecurityConfig {
+	
+	@Autowired
+	public void configureGlobal(AuthenticationManagerBuilder builder) throws Exception {
+	builder
+	.inMemoryAuthentication()
+	.withUser("leonardo").password("191512").roles("USER")
+	.and()
+	.withUser("arthur").password("1915").roles("USER")
+	.and()
+	.withUser("pedro").password("292522").roles("USER");
+	}
+}
